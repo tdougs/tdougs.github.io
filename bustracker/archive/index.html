@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Map</title>
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin: 0; padding: 0; }
+        #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+    </style>
+
+</head>
+<body>
+    
+    <div id="map"></div>
+
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoidGRzZWVsZXkiLCJhIjoiY2t6MG0xNjg0MHhpZjJ1bHVsbGRsOWZvdSJ9.Gc8o6jxOZsZqU3jDYTab2A';
+        var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11'
+        });
+
+/*         async function run(){
+            const locations = await getBusLocations();
+            console.log(new Date());
+            console.log(locations);
+            //timer 
+            setTimeout(run, 15000);
+        }
+
+        async function getBusLocations(){
+            const url ='https://api-v3.mbta.com/vehicles?filter[route]=1&include=trip';
+            const response = await fetch(url);
+            const json = await response.json();
+            return json.data;
+        }
+
+        run();
+
+        var marker = new mapboxgl.marker()
+        .setLngLat([put in long and lat]) // Need to add in longitdue and latitude!
+        .addTo(map); */
+
+
+        </script>
+
+</body>
+</html>
