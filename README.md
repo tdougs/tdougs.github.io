@@ -1,8 +1,8 @@
 # Portfolio Landing Page
 
-Description: MIT coding course assignment - create a student webpage
+My personal portfolio web page. Showcasing several coding exercises.
 
-Installation: Type in URL "trevorseeley.github.io"
+To view please click <a href="https://trevorseeley.github.io/" </a> here:
 
 Usage: A place to showcase my personal portfolio.
 
