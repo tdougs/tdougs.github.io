@@ -2,7 +2,7 @@
 
 My personal portfolio web page. Showcasing several coding exercises.
 
-To view please click <a href="https://trevorseeley.github.io/"> here. </a>
+To view please click <a href="https://trevorseeley.github.io"> here. </a>
 
 Usage: A place to showcase my personal portfolio.
 
